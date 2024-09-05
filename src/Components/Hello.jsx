@@ -1,8 +1,7 @@
-function Hello(props) {
-  console.log(props);
+function Hello({ person }) {
   return (
     <h1>
-      {props.message} {props.name}
+      {person.name} {person.message} {person.seatNumbers}
     </h1>
   );
 }

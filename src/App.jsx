@@ -1,9 +1,9 @@
 import Hello from "./Components/Hello";
+import Fruits from "./Components/Fruits";
 function App() {
   return (
     <div>
-      <Hello name="Junaid" message="Hi There! " />
-      <Hello name="Tawqeer" message="How are you?" />
+      <Fruits />
     </div>
   );
 }
