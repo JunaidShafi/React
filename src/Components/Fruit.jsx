@@ -1,11 +1,11 @@
-export default function Fruit({ name, price }) {
+export default function Fruit({ name, price, availibity }) {
   return (
-    <div>
+    <>
       <ul>
         <li>
-          {name},{price}
+          {name} {price} {availibity ? "" : "Soldout"}
         </li>
       </ul>
-    </div>
+    </>
   );
 }
