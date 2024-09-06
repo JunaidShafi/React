@@ -12,15 +12,20 @@ export default function ConditionalComponent() {
     //     else{
     //         return <h3>Code Everyday</h3>}
 
-    let message;
-const display = false;
-if(display) {
-    message = <h1>Display 1</h1>
+//     let message;
+// const display = false;
+// if(display) {
+//     message = <h1>Display 1</h1>
+//
+// } else {
+//     message = <h1>Display 2</h1>
+// }
+// return message
 
-} else {
-    message = <h1>Display 2</h1>
-}
-return message
+
+
+
+
 }
 
 
