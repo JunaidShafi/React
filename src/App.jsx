@@ -1,7 +1,7 @@
-import Message from "./Components/Message.jsx";
+import Counter from "./Components/Counter.jsx";
 
 function App() {
-  return <Message />;
+  return <Counter />;
 }
 
 export default App;
